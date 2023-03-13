@@ -24,10 +24,10 @@ const handleOnChange = (event)=>{
         </div>
         {/* <button type="button" className="btn btn-outline-primary" onClick={handleUpClick}>Convert to Uppercase</button>
         <button className='btn btn-primary' onClick={handleDownClick}> Convert to LowerCase</button> */}
-        <div class="btn-group" role="group" aria-label="Basic outlined example">
-          <button type="button" class="btn btn-outline-primary mx-2" onClick={handleUpClick}>Convert to Uppercase</button>
-          <button type="button" class="btn btn-outline-primary mx-2" onClick={handleDownClick}>Convert to LowerCase</button>
-           {/* <button type="button" class="btn btn-primary">Right</button> */}
+        <div className="btn-group" role="group" aria-label="Basic outlined example">
+          <button type="button" className="btn btn-outline-primary mx-2" onClick={handleUpClick}>Convert to Uppercase</button>
+          <button type="button" className="btn btn-outline-primary mx-2" onClick={handleDownClick}>Convert to LowerCase</button>
+           {/* <button type="button" className="btn btn-primary">Right</button> */}
         </div>
     </div>
     
